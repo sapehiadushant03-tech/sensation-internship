@@ -1,0 +1,95 @@
+ body {
+            font-family: Arial, sans-serif;
+            background-color: #ffffff; /* Plain White Background */
+            color: #1e293b;            /* Dark Charcoal Text for Readability */
+            line-height: 1.6;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 650px;
+            margin: 0 auto;
+        }
+
+        /* Profile Header */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #e2e8f0; /* Simple gray line helper */
+        }
+
+        header img {
+            border-radius: 50%;
+            border: 2px solid #1e293b;
+            margin-bottom: 15px;
+        }
+
+        header h1 {
+            font-size: 2.2rem;
+            margin-bottom: 5px;
+            letter-spacing: 0.5px;
+        }
+
+        header p {
+            color: #64748b; /* Subtle Muted Gray text */
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        /* Content Sections */
+        section {
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            color: #1e293b;
+            margin-bottom: 15px;
+            text-transform: uppercase; /* Makes headings look professional */
+            letter-spacing: 1px;
+        }
+
+        /* Education Items */
+        .edu-item {
+            margin-bottom: 15px;
+        }
+
+        .edu-title {
+            font-weight: bold;
+            font-size: 1.05rem;
+        }
+
+        .edu-meta {
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        /* Plain Bulleted Lists for Skills & Hobbies */
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        /* Hyperlink styling */
+        a {
+            color: #2563eb; /* Clean Royal Blue for links */
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            color: #94a3b8;
+            font-size: 0.8rem;
+            margin-top: 60px;
+            border-top: 1px solid #e2e8f0;
+            padding-top: 20px;
+        }

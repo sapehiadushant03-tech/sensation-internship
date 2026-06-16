@@ -11,11 +11,11 @@ console.log (user.age);
 
 //Updating
 user.name = "Aayush Patial";
-user.age = 21;
+user.age = 20;
 console.log(user);
 
 //Adding
-user.city = "Mohali";
+user.city = "Kangra";
 console.log(user.city);
 
 //Delete
@@ -27,7 +27,7 @@ for (let key in user){
     console.log(key + ":" + user[key]);
 }
 
-//New Objects :
+//New Objects 
 const student ={
     name:"Vikram Singh",
     marks: 89,

@@ -50,6 +50,6 @@ console.log(array);
 let elements = [2,61,23,0,78,54];
 console.log(elements.slice(1,4));
 
- //to delete elements ()
-elements.splice(2,3);   
+ //to delete elements (modifies origional array)
+elements.splice(2,2);   
 console.log(elements);

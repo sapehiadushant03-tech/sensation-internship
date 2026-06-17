@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Toggle</title>
+</head>
+<body>
+    <h1>Sydeny On</h1>
+    <img src="sydeny.jpg" id="sydeny" height="400px" width="300px" /> <br />
+    <button id="btn" onclick="toggle();">Turn on</button>
+    
+</body>
+<script>
+    let isOn = false;
+    function toggle(){
+        let sydeny = document.querySelector("#sydeny")
+        let sweeney = document.querySelector("#btn")
+
+        if (isOn){
+            sydeny.src = "sydeny.jpg";
+            sweeney.innerText = "Turn On";
+            isOn = false;
+       }
+       else{
+         sydeny.src = "sweeney.jpg";
+         sweeney.innerText = "Turn Off";
+         isOn = true; 
+        }
+
+    }
+</script>
+</html>

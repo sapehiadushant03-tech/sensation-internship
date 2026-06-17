@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme Toggle</title>
+</head>
+<body>
+    <h1 id="text">Hello World</h1>
+    <button id="btn" onclick="changeTheme();">Change Theme</button>
+</body>
+
+<script>
+     let isDark = false;
+    function changeTheme(){
+        let heading = document.querySelector("#text");
+
+        if(isDark){
+            document.body.style.backgroundColor = "White";
+            heading.style.color ="black";
+            isDark = false;
+        }
+        else{
+            document.body.style.backgroundColor = "black";
+            heading.style.color = "white";
+            isDark = true;
+        }
+
+    }
+</script>
+</html>

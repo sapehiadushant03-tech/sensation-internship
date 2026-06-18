@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background: #f4f4f4;
+}
+
+.heading {
+  text-align: center;
+}
+
+input, button {
+  padding: 8px;
+  margin: 5px;
+}
+
+.btn {
+  background: #222;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+
+#list {
+  margin-top: 15px;
+  line-height: 1.8;
+}

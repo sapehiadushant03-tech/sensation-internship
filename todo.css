@@ -1,28 +1,21 @@
-body {
-  font-family: Arial, sans-serif;
-  max-width: 500px;
-  margin: 40px auto;
-  padding: 20px;
-  background: #f4f4f4;
+.heading{
+    color: black;
 }
 
-.heading {
-  text-align: center;
+.btn{
+    background-color: black;
+    color: white;
+    height: 2rem;
+    width: 3rem;
 }
 
-input, button {
-  padding: 8px;
-  margin: 5px;
+#task-input{
+    height: 2rem;
+    text-align: center;
+
 }
 
-.btn {
-  background: #222;
-  color: white;
-  border: 0;
-  cursor: pointer;
-}
-
-#list {
-  margin-top: 15px;
-  line-height: 1.8;
+#date-input{
+    height: 2rem;
+    
 }
